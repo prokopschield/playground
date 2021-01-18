@@ -11,7 +11,7 @@ Promise.resolve(null)
 	.then((playgrounds) => {
 		let r = '';
 		for (const i in playgrounds) {
-			r += `<li class="glist"><a href="/playgrounds/${playgrounds[i]}/index.html">${playgrounds[i]}</a></li>`;
+			r += `<li class="glist"><a href="/playgrounds/assets/index.html?playground=${playgrounds[i]}">${playgrounds[i]}</a></li>`;
 		}
 		document.querySelector('#gl').innerHTML = r;
 	})
