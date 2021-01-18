@@ -1,0 +1,47 @@
+#drop {
+	border: 2px dashed #ccc;
+	border-radius: 20px;
+	width: 720px;
+	font-family: sans-serif;
+	margin: 100px auto;
+	padding: 20px;
+}
+
+#drop.highlight {
+	border-color: purple;
+}
+
+p {
+	margin-top: 0px;
+}
+
+form {
+	margin-bottom: 10px;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px;
+	background: #00ff00;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.button:hover {
+	background: #00aa00;
+}
+
+#fileinput {
+	display: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.rlbtn {
+	font-size: 32px;
+}

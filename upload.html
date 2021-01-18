@@ -1,0 +1,52 @@
+<html>
+	
+	<head>
+		<link rel="stylesheet" href="upload.css">
+		<link rel="stylesheet" href="css.css">
+		<title>Upload!</title>
+		<script src="/upload/playground.js" defer></script>
+		<script>
+			history.replaceState(history.state, 'Playground uploader', '/home/upload.html');
+		</script>
+	</head>
+	
+	<body>
+		<div id="drop" align="center">
+			<div align="center">
+				<button class="rlbtn" onclick="createButton()">Create New</button>
+				<button class="rlbtn" onclick="loginButton()">Login</button>
+			</div>
+			<form>
+				<input id="fileinput" type="file" multiple onchange="fhandler(this.files)"
+				/>
+				<label class="button" for="fileinput">Drag files here, or click here!</label>
+			</form>
+			<div id="screenTextDiv">
+				<ul id="screenText"></ul>
+			</div>
+			<p>
+					<h3>Terms of Use</h3>
+
+				<ul>
+					<li>Posting material, which has been copyrighted by some other person, is
+						forbidden.</li>
+					<li>Posting your own, original material to this website explicitly allows
+						us to use any such material.</li>
+					<li>Any material which is copyrighted must explicitly state it is copyrighted,
+						and by whom.</li>By uploading something to this server, you thereby grant
+					free license to all users and operators of this server.</li>
+					<li>You shall, and by uploading do, give and guarantee an unlimited license
+						to all uploaded content.</li>
+					<li>You shall hold us not liable for anything you do.</li>
+					<li>You shall not post anything you do not own.</li>
+					<li>You shall not infringe copyright.</li>
+					<li>You shall not do anything illegal.</li>
+					<li>You shall not do anything immoral.</li>
+					<li>Any and all disputes shall be handled by an arbiter designated by us.</li>
+					<li>Don't be evil.</li>
+				</ul>
+			</p>
+		</div>
+	</body>
+
+</html>
