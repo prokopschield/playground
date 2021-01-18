@@ -2,3 +2,4 @@ node_modules
 module_installer.js
 package-lock.json
 playground-credentials.json
+uploader.js
