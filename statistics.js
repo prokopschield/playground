@@ -9,7 +9,9 @@ function tablify({
 }) {
 	table.innerHTML += (`
 		<tr class="stats">
-			<td class="stats">${playground}</td>
+			<td class="stats">
+				<a href="/playgrounds/assets/index.html?playground=${playground}">${playground}</a>
+			</td>
 			<td class="stats">${files}</td>
 			<td class="stats">${resources}</td>
 			<td class="stats">${created}</td>
